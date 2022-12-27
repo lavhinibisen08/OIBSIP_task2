@@ -1,0 +1,133 @@
+body{
+    background-color:darkslategrey; color: white;
+}
+#header {
+ background-color: black;   
+ background-position: 50px 50px 50px 50px; background-size:cover;   height: 5vh;
+ padding:2rem 0; position: sticky;
+}
+#header .container{
+    max-width:1100px;
+    padding:0 15px;
+    margin:0 auto;
+    align-items: center;
+}
+#header a{
+    color:white;
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+}
+#header a:hover{
+    color:aqua;
+}
+#header .flex{
+    display:flex;
+}
+#header .leftflex{
+    justify-content: space-between;
+    align-items: center;
+
+}
+#header .rightflex{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    text-align:right; position: absolute;
+    top: 30px; right: 50px; 
+}
+#header button {
+    border:4px;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #header button:hover{
+    background:royalblue;
+color: white;
+}
+#hero{
+    background-color:darkgrey;
+    background-position: 500px 500px 450px 450px; background-size:cover;   height:90vh; display:flex; justify-content: center; flex-wrap: wrap;
+    gap:2rem;  position: sticky;
+}
+#hero img{
+   width:300px; height:450px; flex:1 1 40rem;
+   padding: 5rem; 
+}
+#hero .content{
+  padding:5rem; justify-content:space-between; align-items: center; 
+  min-height:100vh;
+}
+#hero .content h1{
+    font-size:4rem; font-weight:bold; margin-bottom:0;
+}
+#hero .content h2{
+    display: inline-block;  background-color:orange;
+     font-size:2rem; font-weight: lighter; 
+     margin-bottom:0%; padding: 10px 32px;
+}
+#hero .content p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+#hero .content button{
+    border:1px solid;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+#hero button:hover{
+    background:black;
+    color:white;
+}
+
+#about{
+    background-color:black;  
+   
+}
+#about .skills h1{
+    color:orange; font-size:3rem; 
+    font-weight: bold;
+}
+
+
+#about .skills .bar .ba{
+    margin:1rem auto;
+    max-width: 50rem;
+    border: 4px solid black;
+    padding:0rem;
+}
+#about .skills .bar .ba h3{
+    padding:1rem;
+    background-color:orange;
+    font-size:2rem;
+
+}
+#feature {
+    display:flex; justify-content:space-around; align-items: center; padding:10rem; background-color: darkslategrey;
+}
+#feature .fe img{
+    width:400px; height:600px; border:4px solid green;
+}
+#feature .icon img{
+    width:20px; height:20px;
+}
+#edu .box-container {
+    flex:1 1 40rem;
+}
+#edu  h1{
+    padding:1.5rem;
+    font-size:2rem;
+    background-color:orange;
+
+}
+#edu .box-container .box{
+    text-align:center;
+}
